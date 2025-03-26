@@ -34,32 +34,17 @@ Users should be able to:
 ### Screenshot
 
 #### Desktop 1044px
-<style>
-td, th {
-   border: none!important;
-}
-</style>
 
 |     <a href="screenshots/Desktop1440.png">![Desktop screenshot](screenshots/Desktop1440.png)</a>   |
 | ---------------------------------------------- |
 |     <a href="screenshots/Desktop1440-modal.png">![Desktop screenshot with modal](screenshots/Desktop1440-modal.png)</a> |
 
 #### Tablet 768px
-<style>
-td, th {
-   border: none!important;
-}
-</style>
 |     <a href="screenshots/Tablet768.png">![Tablet screenshot](screenshots/Tablet768.png)</a>   |
 | ---------------------------------------------- |
 |     <a href="screenshots/Tablet768-modal.png">![Tablet screenshot with modal](screenshots/Tablet768-modal.png)</a> |
 
 #### Mobile 375px
-<style>
-td, th {
-   border: none!important;
-}
-</style>
 |     <a href="screenshots/Mobile375-half.png">![Mobile screenshot half](screenshots/Mobile375-half.png)</a>   |
 | ---------------------------------------------- |
 |     <a href="screenshots/Mobile375-modal.png">![Mobile screenshot with modal](screenshots/Mobile375-modal.png)</a>  |
@@ -135,7 +120,7 @@ To create a simple modal, structure it with three essential divs:
 - [YouTube Tutorial](https://www.youtube.com/watch?v=9DwGahSqcEc)
 - [GitHub Repository](https://github.com/ecole-du-web/react-modal)
 
-<strong>HTML Structure<strong>
+<strong>HTML Structure</strong>
 
 ```html
 <div class="modal">
@@ -147,7 +132,7 @@ To create a simple modal, structure it with three essential divs:
 </div>
 ```
 
-<strong>Basic CSS Styling<strong>
+<strong>Basic CSS Styling</strong>
 
 ```css
 .modal, .overlay {
