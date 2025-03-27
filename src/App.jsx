@@ -49,7 +49,7 @@ function App() {
   }
 
   return (
-    <main className="font-redhat bg-custom-rose-100 p-4 lg:p-10 lg:flex">
+    <main className="min-h-screen font-redhat bg-custom-rose-100 p-4 lg:p-10 lg:flex">
       <div>
         <h1 className="text-3xl font-bold pb-3">Desserts</h1>
         <div className="grid grid-cols-1 gap-4 md:gap-5 grid-rows-3 md:grid-cols-3">
