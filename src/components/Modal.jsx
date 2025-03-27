@@ -1,5 +1,6 @@
-import orderConfirmIcon from "./icon-order-confirmed.svg";
-import OrderItem from "./OrderItem";
+import orderConfirmIcon from "/icon-order-confirmed.svg";
+
+import OrderItem from "/src/components/OrderItem.jsx";
 
 export default function Modal({
   orders,

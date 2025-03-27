@@ -1,6 +1,6 @@
-import cartIcon from "./icon-add-to-cart.svg";
-import minusIcon from "./icon-decrement-quantity.svg";
-import plusIcon from "./icon-increment-quantity.svg";
+import cartIcon from "/icon-add-to-cart.svg";
+import minusIcon from "/icon-decrement-quantity.svg";
+import plusIcon from "/icon-increment-quantity.svg";
 
 export default function Product(props) {
   console.log("props in product", props);

@@ -1,4 +1,4 @@
-import removeItemIcon from "./icon-remove-item.svg";
+import removeItemIcon from "/icon-remove-item.svg";
 
 export default function CartItem(props) {
   console.log("props in cart item", props);
