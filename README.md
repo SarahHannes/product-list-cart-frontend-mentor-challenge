@@ -153,8 +153,59 @@ To create a simple modal, structure it with three essential divs:
 
 5. Learning React
 
-For learning React, I found this course useful:
-- [Scrimba React Course](https://scrimba.com/learn-react-c0e)
+For learning React, I found this course useful: https://scrimba.com/learn-react-c0e
+
+
+6. Deploying a Vite App to GitHub Pages
+
+To deploy a Vite app to GitHub Pages, refer to the following guide: https://github.com/ErickKS/vite-deploy
+
+7. Paths when deploying to github-pages
+
+Here is an example directory structure:
+
+```
+.
+├── src/
+│   ├── components/
+│   │   ├── Modal.jsx
+│   │   └── OrderItem.jsx
+│   └── ...
+├── public/
+│   ├── image-waffle-thumbnail.jpg
+│   ├── icon-order-confirmed.svg
+│   └── ...
+├── data.json
+└── ...
+```
+
+### i) Paths in a `.jsx` File
+
+#### When referencing from a `.jsx` file located in `/src/components/`
+
+##### Importing an image from `/public`
+```jsx
+import orderConfirmIcon from "/icon-order-confirmed.svg";
+```
+
+##### Importing another component from the same subdirectory
+```jsx
+import OrderItem from "/src/components/OrderItem.jsx";
+```
+
+### ii) Paths in `data.json`
+
+#### When referencing from `data.json` located in the root directory (`/data.json`)
+
+##### Referencing an image Located in `/public`
+```json
+{
+  "thumbnail": "./image-waffle-thumbnail.jpg"
+}
+```
+
+
+
 
 ### Issues Still to Fix
 1. The `+` and `-` button images (underneath the product) only change color when hovering over the `img`, but not when hovering over the `div` containing the `img`.
