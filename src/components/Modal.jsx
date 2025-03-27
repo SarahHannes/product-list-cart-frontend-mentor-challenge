@@ -1,4 +1,4 @@
-import orderConfirmIcon from "./assets/images/icon-order-confirmed.svg";
+import orderConfirmIcon from "./icon-order-confirmed.svg";
 import OrderItem from "./OrderItem";
 
 export default function Modal({

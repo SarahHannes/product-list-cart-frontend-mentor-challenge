@@ -1,7 +1,7 @@
 import { useState } from "react";
 
-import emptyCartIcon from "./assets/images/illustration-empty-cart.svg";
-import treeIcon from "./assets/images/icon-carbon-neutral.svg";
+import emptyCartIcon from "./illustration-empty-cart.svg";
+import treeIcon from "./icon-carbon-neutral.svg";
 import CartItem from "/src/components/CartItem.jsx";
 import Modal from "/src/components/Modal.jsx";
 
