@@ -204,10 +204,24 @@ import OrderItem from "/src/components/OrderItem.jsx";
 }
 ```
 
+8. To apply effect on an element based on hover of parent element.
+Here we are applying filter(--black-fiter) on `<img>` when hovering on 
 
+In the jsx file:
+```jsx
+<button className="group">
+    <img
+      className="group-hover:filter-(--black-filter)"
+      src={removeItemIcon}
+      alt={`Remove ${name} from cart`}
+    />
+</button>
+```
 
-
-### Issues Still to Fix
-1. The `+` and `-` button images (underneath the product) only change color when hovering over the `img`, but not when hovering over the `div` containing the `img`.
-1. The same issue occurs with the `x` icon next to each cart item.
-
+In index.css:
+```css
+:root {
+  --black-filter: invert(700%) sepia(32%) saturate(20008%) hue-rotate(329deg)
+    brightness(3%) contrast(100%);
+}
+```

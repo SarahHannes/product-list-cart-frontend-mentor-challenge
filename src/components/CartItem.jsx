@@ -33,15 +33,14 @@ export default function CartItem(props) {
       </div>
       <button
         onClick={removeItem}
-        className="
+        className="group
         hover:cursor-pointer
         hover:border-custom-rose-900
         border-1 border-custom-rose-400 p-2 rounded-full
         ">
         <img
-          className="
-          hover:filter-(--black-filter)
-          "
+          className="group-hover:filter-(--black-filter)
+          hover:filter-(--black-filter)"
           src={removeItemIcon}
           alt={`Remove ${name} from cart`}
         />

@@ -37,13 +37,13 @@ export default function Product(props) {
       return (
         <div className="mb-2 bg-custom-red font-medium rounded-full px-8 md:px-3 py-2 inline-flex gap-10 md:gap-2 border-1 border-custom-red items-center">
           <button
-            className="
+            className="group
             hover:cursor-pointer
             hover:bg-white
             rounded-full border-1 border-custom-rose-50 p-1 py-2 md:mr-6"
             onClick={subtractQty}>
             <img
-              className="
+              className="group-hover:filter-(--red-filer)
               hover:cursor-pointer
               hover:filter-(--red-filer)
               "
@@ -53,13 +53,14 @@ export default function Product(props) {
           </button>
           <h1 className="mx-1 text-rose-50">{qty}</h1>
           <button
-            className="
+            className="group
             hover:cursor-pointer
             hover:bg-white
             rounded-full border-1 border-custom-rose-50 p-1 md:ml-6"
             onClick={addQty}>
             <img
-              className="hover:filter-(--red-filer)"
+              className="group-hover:filter-(--red-filer)
+              hover:filter-(--red-filer)"
               src={plusIcon}
               alt={`Increase ${name} by 1`}
             />
